@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Color Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+<body>
+    <h1>The Great
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Color Game
+    </h1>
+
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
+    </div>
+
+    <div id="container">
+        <div class="cont">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="cont">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+    </div>
+
+
+    <div class="hint">
+        <h4>Hint:</h4>
+        <p>Guess the RGB color at the TOP</p>
+        <p>First number(s) for <span class="red">RED</span></p>
+        <p>Second number(s) for <span class="green">GREEN</span></p>
+        <p>Third number(s) for <span class="blue">BLUE</span> </p>
+        <p>NB: You would have to note how much <span class="red">RED</span>, <span class="green">GREEN</span> or <span class="blue">BLUE</span> in it to know the right color </p>
+        <p>Click on the NEW COLORS or PLAY AGAIN to generate new</p>
+    </div>
+
+    <footer>
+        <p>Copyright&copy; 2022 Intern at ATDEV</p>
+        <p>Designed By: Shubham Tadas</p>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
