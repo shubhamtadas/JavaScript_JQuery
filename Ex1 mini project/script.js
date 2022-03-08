@@ -1,0 +1,23 @@
+$(document).ready(function(){
+ $("#int").click(function(){
+  $(".box").load("introduction.html");
+});
+  $("#pre").click(function(){
+  $(".box").load("prerequisties.html");
+});
+ $("#jj").click(function(){
+  $(".box").load("java_script.html");
+});
+  $("#hw").click(function(){
+  $(".box").load("hello.html");
+});
+  $("#vr").click(function(){
+  $(".box").load("variable.html");
+});
+  $("#dr").click(function(){
+  $(".box").load("declare.html");
+});
+$("#vs").click(function(){
+$(".box").load("scope.html");
+});
+});
